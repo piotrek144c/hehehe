@@ -1,14 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class PaskiPotrzeb : MonoBehaviour {
 
 	private bool gamePaused = false;
     public float maxZdrowie, obecneZdrowie, maxGlod, obecneGlod, maxPragnienie, obecnePragnienie;
 	public GUISkin skin;
-	private Canvas manuUI;
+	public Canvas quitMenu;
 		
 	// Use this for initialization
 	void Start () {	
